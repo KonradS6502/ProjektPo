@@ -1,0 +1,190 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Zmienna „User::id” jest niezainicjowana. Zawsze inicjuj zmienną składową (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/konra/source/repos/EventBookingSystem/EventBookingSystem/User.h"
+                },
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "User::{ctor}",
+                  "decoratedName": "??0User@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "User::id"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Zmienna „Event::booked” jest niezainicjowana. Zawsze inicjuj zmienną składową (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/konra/source/repos/EventBookingSystem/EventBookingSystem/Event.h"
+                },
+                "region": {
+                  "startLine": 26,
+                  "startColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Event::{ctor}",
+                  "decoratedName": "??0Event@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Event::booked"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Zmienna „Event::capacity” jest niezainicjowana. Zawsze inicjuj zmienną składową (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/konra/source/repos/EventBookingSystem/EventBookingSystem/Event.h"
+                },
+                "region": {
+                  "startLine": 26,
+                  "startColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Event::{ctor}",
+                  "decoratedName": "??0Event@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Event::capacity"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Zmienna „Event::id” jest niezainicjowana. Zawsze inicjuj zmienną składową (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/konra/source/repos/EventBookingSystem/EventBookingSystem/Event.h"
+                },
+                "region": {
+                  "startLine": 26,
+                  "startColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Event::{ctor}",
+                  "decoratedName": "??0Event@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Event::id"
+          }
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.37.32824.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/konra/source/repos/EventBookingSystem/EventBookingSystem/User.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "44cb4f90f84e65428c0d6ecdb878cc046f979edce918001ab18bbbb0e78f5d75"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/konra/source/repos/EventBookingSystem/EventBookingSystem/Event.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "8753836a9ab2c4ac94d48584ef391550bd2eb9ba6342fe699591ed1b5887c6d3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/konra/source/repos/eventbookingsystem/eventbookingsystem/eventmanagment.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "5090a1a02ee56116c00145cfb2115f53280f9fca73035788f950556a709ff66c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/konra/source/repos/eventbookingsystem/eventbookingsystem/eventmanagment.h"
+          },
+          "hashes": {
+            "sha-256": "83f7d2bfc4de6c567997639c00902c5be7008a26aa107958f13de36030c5bd1e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/konra/source/repos/eventbookingsystem/eventbookingsystem/data.h"
+          },
+          "hashes": {
+            "sha-256": "94dc4f9755b0b2e2430a30fcf2c047afe5de30241f0462da68c28e147859539c"
+          }
+        }
+      ]
+    }
+  ]
+}

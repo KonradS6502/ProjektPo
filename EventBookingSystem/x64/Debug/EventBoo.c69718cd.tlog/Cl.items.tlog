@@ -1,4 +1,6 @@
 C:\Users\konra\source\repos\EventBookingSystem\EventBookingSystem\Data.cpp;C:\Users\konra\source\repos\EventBookingSystem\EventBookingSystem\x64\Debug\Data.obj
-C:\Users\konra\source\repos\EventBookingSystem\EventBookingSystem\EvenManagment.cpp;C:\Users\konra\source\repos\EventBookingSystem\EventBookingSystem\x64\Debug\EvenManagment.obj
+C:\Users\konra\source\repos\EventBookingSystem\EventBookingSystem\EventManagment.cpp;C:\Users\konra\source\repos\EventBookingSystem\EventBookingSystem\x64\Debug\EventManagment.obj
 C:\Users\konra\source\repos\EventBookingSystem\EventBookingSystem\Event.cpp;C:\Users\konra\source\repos\EventBookingSystem\EventBookingSystem\x64\Debug\Event.obj
 C:\Users\konra\source\repos\EventBookingSystem\EventBookingSystem\main.cpp;C:\Users\konra\source\repos\EventBookingSystem\EventBookingSystem\x64\Debug\main.obj
+C:\Users\konra\source\repos\EventBookingSystem\EventBookingSystem\Reader.cpp;C:\Users\konra\source\repos\EventBookingSystem\EventBookingSystem\x64\Debug\Reader.obj
+C:\Users\konra\source\repos\EventBookingSystem\EventBookingSystem\User.cpp;C:\Users\konra\source\repos\EventBookingSystem\EventBookingSystem\x64\Debug\User.obj

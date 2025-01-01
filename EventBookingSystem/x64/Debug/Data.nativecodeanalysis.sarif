@@ -1,0 +1,43 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.37.32824.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/konra/source/repos/eventbookingsystem/eventbookingsystem/data.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "cb7c2888949a1e644df3a189414f642ee29c5e1a02b5e44eb2154e52f689b52d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/konra/source/repos/eventbookingsystem/eventbookingsystem/data.h"
+          },
+          "hashes": {
+            "sha-256": "94dc4f9755b0b2e2430a30fcf2c047afe5de30241f0462da68c28e147859539c"
+          }
+        }
+      ]
+    }
+  ]
+}

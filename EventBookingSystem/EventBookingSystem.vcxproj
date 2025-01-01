@@ -131,6 +131,7 @@
     <ClCompile Include="EventManagment.cpp" />
     <ClCompile Include="Event.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Reader.cpp" />
     <ClCompile Include="User.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -138,7 +139,12 @@
     <ClInclude Include="EventManagment.h" />
     <ClInclude Include="Event.h" />
     <ClInclude Include="main.h" />
+    <ClInclude Include="Reader.h" />
     <ClInclude Include="User.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Events.txt" />
+    <Text Include="Users.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

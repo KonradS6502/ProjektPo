@@ -3,12 +3,11 @@
 class User
 {
 private:
-	int id;
 	std::string username;
 public:
-
+	User(std::string name_v);
 	std::string Get_Name(void);
-	int Get_ID(void);
+	User() = default;
 	
 };
 
