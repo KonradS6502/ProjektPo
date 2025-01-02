@@ -17,6 +17,7 @@ public:
 	int AddUser(std::string username_v);
 	
 	int AddUserToEvent(std::string user_username_v, std::string event_name_v);
+	int RemoveUserFromEvent(std::string user_username_v, std::string event_name_v);
 	std::map<std::string, Event>* GetAllEvents(void);
 	std::map <std::string, User>* GetAllUsers(void);
 public:

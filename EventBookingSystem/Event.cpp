@@ -21,6 +21,15 @@ int Event::AddUser(User* user) {
 	
 	return 1;
 }
+int Event::RemoveUser(User* user) {
+	auto it = std::find(users.begin(), users.end(), user);
+	if (it != users.end()) {
+		users.erase(it);
+		booked -= 1;
+		return 0;
+	}
+	return 1;
+}
 
 //Show all registered users
 void Event::PrintAllUsers(void) {

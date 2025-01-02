@@ -34,6 +34,14 @@ int EventManagment::AddUserToEvent(std::string user_username_v, std::string even
 	return 1;
 }
 
+int EventManagment::RemoveUserFromEvent(std::string user_username_v, std::string event_name_v) {
+	if ((events_map.find(event_name_v) != events_map.end()) || (users_map.find(user_username_v) != users_map.end())) {
+		events_map[event_name_v].RemoveUser(&users_map[user_username_v]);
+		return 0;
+	}
+
+	return 1;
+}
 
 std::map<std::string, Event>* EventManagment :: GetAllEvents(void) {
 	return(&events_map);
